@@ -1,0 +1,33 @@
+{
+  "name": "japa-eigen",
+  "version": "0.0.0",
+  "main": "lib/japa-eigen.js",
+  "description": "Node.js addon for Eigen C++ Library",
+  "homepage": "https://github.com/japa-studios/japa-eigen",
+  "bugs": "https://github.com/guilhermeando/japa-eigen/issues",
+  "author": {
+    "name": "Guilherme Ando de Toledo",
+    "email": "guilhermeando@gmail.com",
+    "url": "https://github.com/guilhermeando"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guilhermeando/japa-eigen"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
