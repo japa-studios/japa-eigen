@@ -32,5 +32,17 @@ exports.japaEigen = {
     // tests here
     test.equal(japaEigen.awesome(), 'awesome', 'should be awesome.');
     test.done();
+  },
+  'matrix': function(test) {
+    test.expect(1);
+    // tests here
+    test.equal(japaEigen.matrix(10), 11, 'should be 11.');
+    test.done();
+  },
+  'gyp': function(test) {
+    test.expect(1);
+    // tests here
+    test.equal(japaEigen.gyp(10), 11, 'should be 11.');
+    test.done();
   }
 };

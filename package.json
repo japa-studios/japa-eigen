@@ -29,5 +29,10 @@
   },
   "scripts": {
     "test": "grunt"
+  },
+  "private": true,
+  "gypfile": true,
+  "dependencies": {
+    "grunt-node-gyp": "~0.3.0"
   }
 }
